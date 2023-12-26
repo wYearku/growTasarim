@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className="sticky h-0 top-0 z-50">
       <nav className="lg:px-32 px-6 bg-[#3A3C47] text-white shadow-lg flex flex-wrap justify-between items-center lg:py-5 py-2 ">
         <div className="flex justify-between items-center">
-          <a href="/" className="flex text-lg font-semibold">
+          <Link href="/" className="flex text-lg font-semibold">
             <Image
               src={"/img/grow-logo.png"}
               width={170}
@@ -18,7 +18,7 @@ const Navbar = () => {
               className="object-contain"
               alt="Rz Codes Logo"
             />
-          </a>
+          </Link>
         </div>
         <svg
           className={`fill-current text-gray-white lg:hidden cursor-pointer`}
@@ -111,12 +111,12 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="py-2 lg:py-0 ">
-            <a
+            <Link
               className=" hover:pb-4 hover:border-b-4 hover:border-white"
               href="/comments"
             >
               Müşteri Yorumları
-            </a>
+            </Link>
           </li>
           <li className="py-2 lg:py-0 flex gap-5 items-center justify-center my-2">
             <a href="https://instagram.com" target="_blank">

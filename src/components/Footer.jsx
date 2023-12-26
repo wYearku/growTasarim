@@ -69,10 +69,10 @@ const Footer = () => {
       <div className="flex flex-col mt-10">
         <div className="bg-[#1E2029] py-10 px-2">
           <div className="lg:w-[80%] mx-auto grid lg:grid-cols-4 gap-4">
-            {footerData.map((data) => {
+            {footerData.map((data, i) => {
               const { title, content, icon } = data;
               return (
-                <div className="flex items-start gap-3">
+                <div key={i} className="flex items-start gap-3">
                   <div className="w-14">
                     <div className="flex items-center justify-center !w-14 !h-14 rounded-full bg-black">
                       <Icon icon={icon} fontSize={35} />
@@ -91,15 +91,15 @@ const Footer = () => {
         </div>
         <div className="bg-[#292B37] py-5">
           <div className="lg:w-[80%] mx-auto grid lg:grid-cols-4 gap-5 px-2">
-            {footerInformation.map((data) => {
+            {footerInformation.map((data, i) => {
               const { title, materials } = data;
 
               return (
-                <div>
+                <div key={i}>
                   <h4 className="border-b border-white pb-2">{title}</h4>
                   <ul className="list-disc list-inside mt-4">
-                    {materials.map((material) => (
-                      <li>{material}</li>
+                    {materials.map((material, i) => (
+                      <li key={i}>{material}</li>
                     ))}
                   </ul>
                 </div>
