@@ -19,7 +19,7 @@ const DetailPage = ({ title, content, thumbnail, thumbnailBg, images }) => {
 
   return (
     <div className="lg:w-[80%] mx-auto py-10 bg-[#1E2029] px-16">
-      <h3 className="text-2xl border-b-2 border-white pb-2 mb-5">{title}</h3>
+      <h3 className="text-2xl border-b-2 border-white pb-2 mb-5 font-bold">{title}</h3>
       <div className="grid grid-cols-5 gap-5 lg:gap-10 select-none">
         <div className="col-span-5 lg:col-span-3">
           <Swiper

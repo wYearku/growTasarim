@@ -9,7 +9,7 @@ import NextNProgress from 'nextjs-progressbar';
 import "@/styles/globals.css";
 import '@/styles/swiper.css';
 
-const poppins = Poppins({ subsets: ["devanagari"] , weight: '700'});
+const poppins = Poppins({ subsets: ["devanagari"] , weight: '400'});
 
 export default function App({ Component, pageProps }) {
   return (

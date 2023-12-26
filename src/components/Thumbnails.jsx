@@ -39,7 +39,7 @@ const Thumbnails = () => {
 
   return (
     <div className="lg:w-[80%] mx-auto py-10 px-2">
-      <h2 className="border-b-2 border-white pb-2 mb-10 text-5xl">Thumbnails</h2>
+      <h2 className="border-b-2 border-white pb-2 mb-10 text-5xl font-bold">Thumbnails</h2>
       <div className="grid lg:grid-cols-4 gap-4">
         {thumbnails.map((thumbnail, index) => {
           const { title, image, content, price, oldPrice, url } = thumbnail;

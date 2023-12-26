@@ -7,7 +7,7 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <div className="sticky h-0 top-0 z-50">
+    <div className="sticky h-0 top-0 z-50 font-bold">
       <nav className="lg:px-32 px-6 bg-[#3A3C47] text-white shadow-lg flex flex-wrap justify-between items-center lg:py-5 py-2 ">
         <div className="flex justify-between items-center">
           <Link href="/" className="flex text-lg font-semibold">
