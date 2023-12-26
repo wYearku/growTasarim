@@ -32,25 +32,25 @@ const Main = () => {
         className="w-[250px] md:w-[500px] lg:w-[1000px]"
       >
         <SwiperSlide>
-          <div className="w-full h-[8rem] md:h-[15rem] lg:h-[30rem] border-4 border-white ">
+          <div className="w-full h-[8rem] md:h-[15rem] lg:h-[30rem]">
             <img
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover border-4 border-white rounded-3xl"
               src={"/img/slide1.jpg"}
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="w-full h-[8rem] md:h-[15rem] lg:h-[30rem] border-4 border-white ">
+          <div className="w-full h-[8rem] md:h-[15rem] lg:h-[30rem]">
             <img
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover border-4 border-white rounded-3xl"
               src={"/img/slide2.jpg"}
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="w-full h-[8rem] md:h-[15rem] lg:h-[30rem] border-4 border-white ">
+          <div className="w-full h-[8rem] md:h-[15rem] lg:h-[30rem]">
             <img
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover border-4 border-white rounded-3xl"
               src={"/img/slide3.jpg"}
             />
           </div>
