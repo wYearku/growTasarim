@@ -7,8 +7,8 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <div className="sticky h-0 top-0 z-50 font-bold">
-      <nav className="lg:px-32 px-6 bg-[#3A3C47] text-white shadow-lg flex flex-wrap justify-between items-center lg:py-5 py-2 ">
+    <div className="sticky h-0 top-0 z-50">
+      <nav className="lg:px-32 px-6 bg-[#3A3C47] text-white shadow-lg flex flex-wrap justify-between items-center lg:py-5 py-2 font-bold">
         <div className="flex justify-between items-center">
           <Link href="/" className="flex text-lg font-semibold">
             <Image
@@ -81,7 +81,7 @@ const Navbar = () => {
       <nav
         className={`${
           navbarOpen ? "h-80" : "h-0"
-        } overflow-hidden transition-all bg-[#3A3C47] lg:hidden`}
+        } overflow-hidden transition-all bg-[#3A3C47] lg:hidden font-bold`}
       >
         <ul
           className={`text-xl text-center items-center gap-x-5 pt-4 md:gap-x-4 lg:text-lg lg:flex lg:pt-0`}
