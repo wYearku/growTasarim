@@ -2,7 +2,7 @@ import SpecialDesigns from "@/components/SpecialDesigns";
 
 const DesignsPage = () => {
   return (
-    <div className="mt-24">
+    <div className="mt-32">
       <SpecialDesigns />
     </div>
   );

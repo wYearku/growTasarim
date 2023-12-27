@@ -11,9 +11,9 @@ const About = () => {
         src={"https://soft-cocada-675207.netlify.app/images/about.png"}
         width={100000}
         height={100000}
-        className="!w-full h-96 object-cover"
+        className="!w-full h-60 md:h-96 object-cover"
       />
-      <p className="indent-10 text-justify mt-5 text-lg">
+      <p className="indent-10 text-justify mt-5 md:text-lg">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus
         harum enim illum veniam, labore ipsum dolor, aspernatur et maxime velit
         aut cumque neque dolorum sit commodi ducimus esse minus impedit

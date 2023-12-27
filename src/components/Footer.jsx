@@ -110,7 +110,7 @@ const Footer = () => {
         <div className="bg-[#3F4257] py-3 px-2">
           <div className="lg:w-[80%] mx-auto text-center">
             <p>
-              Copyright 2023 <span className="text-black">Ödepin</span> |
+              Copyright 2023 <span className="text-black">GrowTasarım</span> |
               Sitemizdeki yazı resim ve içeriklerin her hakkı saklıdır.
             </p>
           </div>
