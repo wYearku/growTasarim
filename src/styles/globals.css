@@ -14,10 +14,35 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #FFBA08;
+  background: #ffba08;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #d59d0d;
+}
+
+@keyframes infiniteScroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.duyuru-container {
+  width: 100%;
+  overflow-x: hidden;
+}
+.horizontal-scrolling-items {
+  display: flex;
+  font-size: 40px;
+  width: 2600px;
+  animation-name: infiniteScroll;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.horizontal-scrolling-items__item {
+  white-space: nowrap;
 }

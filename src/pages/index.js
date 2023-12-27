@@ -10,7 +10,7 @@ export default function Home() {
       <Main />
       <Thumbnails />
       <SpecialDesigns />
-      <About />
+      {/* <About /> */}
       <FeedBack />
     </>
   );

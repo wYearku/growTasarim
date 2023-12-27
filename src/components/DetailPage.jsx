@@ -59,7 +59,6 @@ const DetailPage = ({ title, content, thumbnail, thumbnailBg, images }) => {
             freeMode={true}
             watchSlidesProgress={true}
             modules={[FreeMode, Navigation, Thumbs]}
-            loop={true}
             className="mySwiper"
           >
             {images?.map((image, i) => (

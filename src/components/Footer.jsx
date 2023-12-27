@@ -66,7 +66,7 @@ const Footer = () => {
 
   return (
     <div className="flex-1 flex items-end">
-      <div className="flex flex-col mt-10">
+      <div className="flex flex-col">
         <div className="bg-[#1E2029] py-10 px-2">
           <div className="lg:w-[80%] mx-auto grid lg:grid-cols-4 gap-4">
             {footerData.map((data, i) => {

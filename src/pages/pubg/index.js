@@ -22,7 +22,7 @@ const Pubg = () => {
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfoS4PJfdYw-ByEqXy4abinVoWsqXKsVtD2haG7BpmNxvcELudR1L459YahfK4B3zqvAY&usqp=CAU";
 
   return (
-    <div className="mt-[153px]">
+    <div className="mt-[153px] mb-10">
       <DetailPage
         title={title}
         content={content}

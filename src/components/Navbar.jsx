@@ -8,12 +8,12 @@ const Navbar = () => {
 
   return (
     <div className="sticky h-0 top-0 z-50">
-      <nav className="lg:px-32 px-6 bg-[#3A3C47] text-white shadow-lg flex flex-wrap justify-between items-center lg:py-5 py-2 font-bold">
+      <nav className="lg:px-32 px-6 bg-[#3A3C47] text-white shadow-lg flex flex-wrap justify-between items-center lg:py-5 py-2 font-medium">
         <div className="flex justify-between items-center">
           <Link href="/" className="flex text-lg font-semibold">
             <Image
               src={"/img/grow-logo.png"}
-              width={170}
+              width={200}
               height={50}
               className="object-contain"
               alt="Rz Codes Logo"
@@ -38,7 +38,7 @@ const Navbar = () => {
             <li className="py-2 lg:py-0 ">
               <Link
                 className=" hover:pb-4 hover:border-b-4 hover:border-white"
-                href={'/'}
+                href={"/"}
               >
                 Ana Menü
               </Link>
@@ -80,15 +80,15 @@ const Navbar = () => {
       </nav>
       <nav
         className={`${
-          navbarOpen ? "h-80" : "h-0"
-        } overflow-hidden transition-all bg-[#3A3C47] lg:hidden font-bold`}
+          navbarOpen ? "h-64" : "h-0"
+        } overflow-hidden transition-all bg-[#3A3C47] lg:hidden font-medium`}
       >
         <ul
           className={`text-xl text-center items-center gap-x-5 pt-4 md:gap-x-4 lg:text-lg lg:flex lg:pt-0`}
         >
           <li className="py-2 lg:py-0 ">
             <Link
-              className=" hover:pb-2 hover:border-b-4 hover:border-white"
+              className="hover:pb-2 hover:border-b-4 hover:border-white"
               href="/"
             >
               Ana Menü
@@ -123,13 +123,32 @@ const Navbar = () => {
               <Icon icon="tabler:brand-instagram" fontSize={25} />
             </a>
             <a href="https://discord.com" target="_blank">
-            <Icon icon="tabler:brand-discord" fontSize={25} />
-          </a>
+              <Icon icon="tabler:brand-discord" fontSize={25} />
+            </a>
           </li>
         </ul>
       </nav>
-      <div className="bg-[#292B37] px-2">
-        <p className="flex gap-2 items-center justify-center py-1 text-sm ">Duyuru <Icon icon='tabler:bell-ringing'/> hesaplanmızda indirimlerimiz sizlerle !! Ayrıca sitemizde herhangi bir sorun yaşarsanız mesai saatlerimiz içerisinde en hızlı şekilde canlı destek ekibimizden geri dönüş alabilirsiniz</p>
+      <div className="bg-[#292B37] px-2 duyuru-container">
+        <div className="horizontal-scrolling-items flex gap-10">
+          <p className="flex gap-2 items-center justify-center py-1 text-sm horizontal-scrolling-items__item">
+            Duyuru <Icon icon="tabler:bell-ringing" /> hesaplanmızda
+            indirimlerimiz sizlerle !! Ayrıca sitemizde herhangi bir sorun
+            yaşarsanız mesai saatlerimiz içerisinde en hızlı şekilde canlı
+            destek ekibimizden geri dönüş alabilirsiniz
+          </p>
+          <p className="flex gap-2 items-center justify-center py-1 text-sm horizontal-scrolling-items__item">
+            Duyuru <Icon icon="tabler:bell-ringing" /> hesaplanmızda
+            indirimlerimiz sizlerle !! Ayrıca sitemizde herhangi bir sorun
+            yaşarsanız mesai saatlerimiz içerisinde en hızlı şekilde canlı
+            destek ekibimizden geri dönüş alabilirsiniz
+          </p>
+          <p className="flex gap-2 items-center justify-center py-1 text-sm horizontal-scrolling-items__item">
+            Duyuru <Icon icon="tabler:bell-ringing" /> hesaplanmızda
+            indirimlerimiz sizlerle !! Ayrıca sitemizde herhangi bir sorun
+            yaşarsanız mesai saatlerimiz içerisinde en hızlı şekilde canlı
+            destek ekibimizden geri dönüş alabilirsiniz
+          </p>
+        </div>
       </div>
     </div>
   );

@@ -25,17 +25,7 @@ const About = () => {
         magnam. Assumenda iste sapiente commodi, atque incidunt maxime vel
         explicabo quod soluta suscipit natus laboriosam magni laborum dicta,
         omnis tempora sequi dolorum minima ipsa possimus ullam nam impedit
-        quidem voluptas. Est quos nisi minus ipsa quaerat. Neque impedit
-        corrupti nihil exercitationem dicta quam sit, illum modi qui accusantium
-        minus dignissimos dolores ratione praesentium, ipsam ab voluptate
-        doloremque dolorem aspernatur alias, iste velit. Alias excepturi
-        reiciendis aliquam similique laudantium, amet quidem voluptatem tempora
-        dicta atque ipsa repellendus perferendis corporis. Iusto, vitae,
-        reprehenderit rem repudiandae quod quo ipsum, inventore saepe architecto
-        consequuntur non eum molestiae natus excepturi nisi vero labore nemo
-        molestias! Ut corporis, voluptatem esse ad quam cum accusamus magni
-        voluptatum illum quos! Recusandae commodi soluta vero laborum,
-        voluptatem obcaecati possimus!
+        quidem voluptas. Est quos nisi minus ipsa quaerat.
       </p>
     </div>
   );
