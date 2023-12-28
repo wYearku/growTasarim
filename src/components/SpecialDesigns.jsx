@@ -29,7 +29,7 @@ const SpecialDesigns = () => {
   return (
     <div className="bg-[#1E2029]">
       <div className="lg:w-[80%] mx-auto py-10 px-2">
-        <h2 className="border-b-2 border-white pb-2 mb-10 text-5xl font-bold">
+        <h2 className="mb-10 text-5xl font-bold">
           Özel <span className="text-pink-500">Tasarımlar</span>
         </h2>
         <div className="grid lg:grid-cols-3 gap-4">

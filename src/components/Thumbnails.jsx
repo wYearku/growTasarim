@@ -42,7 +42,7 @@ const Thumbnails = () => {
   return (
     <div className="bg-[#292B37]">
       <div className="lg:w-[80%] mx-auto py-10 px-2">
-        <h2 className="border-b-2 border-white pb-2 mb-10 text-5xl font-bold">
+        <h2 className="mb-10 text-5xl font-bold">
           Thumbnails
         </h2>
         <div className="grid lg:grid-cols-4 gap-4">

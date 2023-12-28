@@ -4,7 +4,7 @@ import React from "react";
 const About = () => {
   return (
     <div className="lg:w-[80%] mx-auto py-10 px-2">
-      <h2 className="border-b-2 border-white pb-2 mb-10 text-5xl font-bold">
+      <h2 className="mb-10 text-5xl font-bold">
         Hakkımızda
       </h2>
       <Image

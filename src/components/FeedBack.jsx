@@ -26,7 +26,7 @@ const FeedBack = () => {
 
   return (
     <div className="lg:w-[80%] mx-auto py-10 px-2">
-      <h2 className="border-b-2 border-white pb-2 mb-10 text-5xl font-bold">Müşteri <span className='text-pink-500'>Memnuniyeti</span></h2>
+      <h2 className="mb-10 text-5xl font-bold">Müşteri <span className='text-pink-500'>Memnuniyeti</span></h2>
         <div className='grid grid-cols-1 lg:grid-cols-3 gap-4'>
             {comments.map((comment, index) => {
                 const { content, image, rate, username} = comment
