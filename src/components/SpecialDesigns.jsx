@@ -27,10 +27,10 @@ const SpecialDesigns = () => {
   ];
 
   return (
-    <div className="bg-[#1E2029]">
+    <div>
       <div className="lg:w-[80%] mx-auto py-10 px-2">
         <h2 className="mb-10 text-5xl font-bold">
-          Özel <span className="text-pink-500">Tasarımlar</span>
+          Sosyal <span className="text-[#ffba08]">Medya</span>
         </h2>
         <div className="grid lg:grid-cols-3 gap-4">
           {designs.map((design, index) => {
