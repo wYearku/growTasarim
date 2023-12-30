@@ -51,14 +51,14 @@ const Navbar = () => {
                 About
               </Link>
             </li>
-            <li className="py-2 lg:py-0 ">
+            {/* <li className="py-2 lg:py-0 ">
               <Link
                 className=" hover:pb-4 hover:border-b-4 hover:border-white"
                 href="designs"
               >
                 Designs
               </Link>
-            </li>
+            </li> */}
             <li className="py-2 lg:py-0 ">
               <Link
                 className=" hover:pb-4 hover:border-b-4 hover:border-white"
@@ -102,14 +102,14 @@ const Navbar = () => {
               About
             </Link>
           </li>
-          <li className="py-2 lg:py-0 ">
+          {/* <li className="py-2 lg:py-0 ">
             <Link
               className=" hover:pb-2 hover:border-b-4 hover:border-white"
               href="/designs"
             >
               Designs
             </Link>
-          </li>
+          </li> */}
           <li className="py-2 lg:py-0 ">
             <Link
               className=" hover:pb-4 hover:border-b-4 hover:border-white"

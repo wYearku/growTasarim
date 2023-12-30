@@ -38,7 +38,25 @@ const Thumbnails = () => {
       content: "CS-GO THUMBNAİL",
       price: "99.90",
       oldPrice: "149.90",
-      url: "cs_go",
+      url: "cs-go",
+    },
+    {
+      title: "Fortnite",
+      image:
+        "/img/fortnite_1.png",
+      content: "Fortnite Thumbnail",
+      price: "99.90",
+      oldPrice: "149.90",
+      url: "fortnite",
+    },
+    {
+      title: "GTA V",
+      image:
+        "/img/gtav_1.png",
+      content: "GTA V Thumbnail",
+      price: "99.90",
+      oldPrice: "149.90",
+      url: "gta-v",
     },
     {
       title: "İnstagram Arkaplan",
@@ -68,7 +86,7 @@ const Thumbnails = () => {
     <div className="bg-[#1E2029]">
       <div className="lg:w-[80%] mx-auto py-10 px-2">
         <h2 className="mb-10 text-5xl font-bold flex items-center gap-3"><Icon icon="tabler:stack-2" fontSize={48} /> Ürünler</h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 justify-center gap-4">
           {thumbnails.map((thumbnail, index) => {
             const { title, image, content, price, oldPrice, url } = thumbnail;
 

@@ -47,7 +47,7 @@ const DetailPage = ({ title, content, thumbnail, thumbnailBg, images }) => {
             {images?.map((image, i) => (
               <SwiperSlide key={i}>
                 <div className="w-full h-[22rem]">
-                  <img className="w-full h-full object-cover" src={image} />
+                  <Image width={1000000} height={1000000} className="w-full h-full object-cover" src={image} />
                 </div>
               </SwiperSlide>
             ))}
@@ -64,7 +64,7 @@ const DetailPage = ({ title, content, thumbnail, thumbnailBg, images }) => {
             {images?.map((image, i) => (
               <SwiperSlide key={i}>
                 <div className="w-full h-[3rem]">
-                  <img className="w-full h-full object-cover cursor-pointer" src={image} />
+                  <Image width={1000000} height={1000000} className="w-full h-full object-cover cursor-pointer" src={image} />
                 </div>
               </SwiperSlide>
             ))}
@@ -81,6 +81,7 @@ const DetailPage = ({ title, content, thumbnail, thumbnailBg, images }) => {
             src={thumbnail}
             width={1000}
             height={1000}
+            alt='thumbnail'
             className="w-28 h-28 absolute top-28 left-10 object-cover shadow-2xl"
           />
           <p className="indent-5 mt-5 text-justify">{content}</p>
