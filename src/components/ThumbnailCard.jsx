@@ -7,8 +7,8 @@ const ThumbnailCard = ({ image, title, content, price, oldPrice, url }) => {
     <div className="flex flex-col relative group text-black rounded-xl overflow-hidden mx-auto">
       <Link href={`/products/${url}`}>
         <Image
-          width={100000}
-          height={100000}
+          width={10000000}
+          height={10000000}
           src={image}
           className="!w-full !h-[530px] object-cover group-hover:scale-110 transition-all rounded-xl duration-300 ease-in-out"
         />

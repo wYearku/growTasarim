@@ -29,7 +29,7 @@ const Main = () => {
         navigation={true}
         modules={[Navigation, Pagination, Autoplay]}
         slidesPerView={1}
-        className="w-[97%] md:w-[90%] lg:w-[900px]  xl:w-[1200px]"
+        className="w-[97%] md:w-[90%] lg:w-[900px] xl:w-[1100px]"
       >
         <SwiperSlide>
           <div className="w-full h-[40%] md:h-[20rem] lg:h-[27rem] xl:h-[33rem]">
