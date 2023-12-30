@@ -33,7 +33,7 @@ export default function App({ Component, pageProps }) {
     <div
       className={`${poppins.className} bg-[#292B37] min-h-[100vh] text-white flex flex-col`}
     >
-      <div className="App absolute top-0 z-50">{snow()}</div>
+      <div className="App w-full fixed top-0 z-50">{snow()}</div>
       <NextNProgress color="#FFBA08" />
       <Navbar />
       <Component {...pageProps} />
