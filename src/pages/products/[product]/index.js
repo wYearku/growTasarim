@@ -4,8 +4,6 @@ import React, { useEffect, useState } from "react";
 const ProductPage = ({ product }) => {
   const [pageData, setPageData] = useState(null);
 
-  console.log(product);
-
   const data = [
     {
       title: "Pubg",

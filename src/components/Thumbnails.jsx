@@ -7,7 +7,7 @@ const Thumbnails = () => {
     {
       title: "Pubg",
       image:
-        "/img/pubg_1.jpg",
+        "/img/products/pubg_1.jpg",
       content: "PUBG THUMBNAİL",
       price: "99.90",
       oldPrice: "149.90",
@@ -16,7 +16,7 @@ const Thumbnails = () => {
     {
       title: "Valorant",
       image:
-        "/img/valorant_1.jpg",
+        "/img/products/valorant_1.jpg",
       content: "VALORANT THUMBNAİL",
       price: "99.90",
       oldPrice: "149.90",
@@ -25,7 +25,7 @@ const Thumbnails = () => {
     {
       title: "LOL",
       image:
-        "/img/lol_1.png",
+        "/img/products/lol_1.jpg",
       content: "LOL THUMBNAİL",
       price: "99.90",
       oldPrice: "149.90",
@@ -34,7 +34,7 @@ const Thumbnails = () => {
     {
       title: "Cs-Go",
       image:
-        "/img/CS_GO_1.png",
+        "/img/products/CS_GO_1.jpg",
       content: "CS-GO THUMBNAİL",
       price: "99.90",
       oldPrice: "149.90",
@@ -43,7 +43,7 @@ const Thumbnails = () => {
     {
       title: "Fortnite",
       image:
-        "/img/fortnite_1.png",
+        "/img/products/fortnite_1.jpg",
       content: "Fortnite Thumbnail",
       price: "99.90",
       oldPrice: "149.90",
@@ -52,7 +52,25 @@ const Thumbnails = () => {
     {
       title: "GTA V",
       image:
-        "/img/gtav_1.png",
+        "/img/products/gtav_1.jpg",
+      content: "GTA V Thumbnail",
+      price: "99.90",
+      oldPrice: "149.90",
+      url: "gta-v",
+    },
+    {
+      title: "Apex Legends",
+      image:
+        "/img/products/apex_legends_1.jpg",
+      content: "Apex Legends Thumbnail",
+      price: "99.90",
+      oldPrice: "149.90",
+      url: "gta-v",
+    },
+    {
+      title: "Roblox",
+      image:
+        "/img/products/roblox_1.jpg",
       content: "GTA V Thumbnail",
       price: "99.90",
       oldPrice: "149.90",
@@ -61,7 +79,7 @@ const Thumbnails = () => {
     // {
     //   title: "İnstagram Arkaplan",
     //   content: "Arka Planını Değiştir!",
-    //   image: "/img/product-1.png",
+    //   image: "/img/product-1.jpg",
     //   price: "99.99",
     //   discount: "60",
     //   url: "instagram_arkaplan",
@@ -69,14 +87,14 @@ const Thumbnails = () => {
     // {
     //   title: "Nesne Değiştirme",
     //   content: "Doğum Tarihini",
-    //   image: "/img/product-1.png",
+    //   image: "/img/product-1.jpg",
     //   price: "99.99",
     //   discount: "nesne_degistirme",
     // },
     // {
     //   title: "Lorem",
     //   content: "Lorem Ipsum Dolor Sit Amet",
-    //   image: "/img/product-1.png",
+    //   image: "/img/product-1.jpg",
     //   price: "99.99",
     //   discount: "60",
     // },
