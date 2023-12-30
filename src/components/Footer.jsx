@@ -68,7 +68,7 @@ const Footer = () => {
     <div className="flex-1 flex items-end">
       <div className="flex flex-col">
         <div className="bg-[#1E2029] py-10 px-2">
-          <div className="lg:w-[80%] mx-auto grid lg:grid-cols-4 gap-4">
+          <div className="lg:w-[80%] mx-auto grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {footerData.map((data, i) => {
               const { title, content, icon } = data;
               return (
@@ -90,7 +90,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="bg-[#292B37] py-5">
-          <div className="lg:w-[80%] mx-auto grid lg:grid-cols-4 gap-5 px-2">
+          <div className="lg:w-[80%] mx-auto grid sm:grid-cols-2 lg:grid-cols-4 gap-5 px-2">
             {footerInformation.map((data, i) => {
               const { title, materials } = data;
 
@@ -108,8 +108,8 @@ const Footer = () => {
           </div>
         </div>
         <div className="bg-[#3F4257] py-3 px-2">
-          <div className="lg:w-[80%] mx-auto text-center">
-            <p>
+          <div className="lg:w-[80%] mx-auto text-md:grid-cols-2 center">
+            <p className="text-center">
               Copyright 2023 <span className="text-[#ffba08]">GrowTasarım</span> |
               Sitemizdeki yazı resim ve içeriklerin her hakkı saklıdır.
             </p>

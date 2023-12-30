@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Main />
       <Thumbnails />
-      <SpecialDesigns />
+      {/* <SpecialDesigns /> */}
       {/* <About /> */}
       <FeedBack />
     </>

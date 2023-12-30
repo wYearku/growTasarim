@@ -8,15 +8,15 @@ const Navbar = () => {
 
   return (
     <div className="sticky h-0 top-0 z-50">
-      <nav className="lg:px-32 px-6 bg-[#3A3C47] text-white shadow-lg flex flex-wrap justify-between items-center lg:py-5 py-2 font-medium">
+      <nav className="xl:px-32 px-6 bg-[#3A3C47] text-white shadow-lg flex flex-wrap justify-between items-center lg:py-2 font-medium">
         <div className="flex justify-between items-center">
           <Link href="/" className="flex text-lg font-semibold">
             <Image
               src={"/img/grow-logo.png"}
-              width={200}
+              width={250}
               height={50}
               className="object-contain"
-              alt="Rz Codes Logo"
+              alt="grow logo"
             />
           </Link>
         </div>

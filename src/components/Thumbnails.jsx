@@ -25,7 +25,7 @@ const Thumbnails = () => {
     {
       title: "LOL",
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWf29xOp9i7W-OXWpfiDvIE-xa_318v7Gjyg&usqp=CAU",
+        "/img/lol_1.png",
       content: "LOL THUMBNAİL",
       price: "99.90",
       oldPrice: "149.90",
@@ -40,12 +40,34 @@ const Thumbnails = () => {
       oldPrice: "149.90",
       url: "cs_go",
     },
+    {
+      title: "İnstagram Arkaplan",
+      content: "Arka Planını Değiştir!",
+      image: "/img/product-1.png",
+      price: "99.99",
+      discount: "60",
+      url: "instagram_arkaplan",
+    },
+    {
+      title: "Nesne Değiştirme",
+      content: "Doğum Tarihini",
+      image: "/img/product-1.png",
+      price: "99.99",
+      discount: "nesne_degistirme",
+    },
+    {
+      title: "Lorem",
+      content: "Lorem Ipsum Dolor Sit Amet",
+      image: "/img/product-1.png",
+      price: "99.99",
+      discount: "60",
+    },
   ];
 
   return (
     <div className="bg-[#1E2029]">
       <div className="lg:w-[80%] mx-auto py-10 px-2">
-        <h2 className="mb-10 text-5xl font-bold flex items-center gap-3"><Icon icon="tabler:stack-2" fontSize={48} /> Thumbnails</h2>
+        <h2 className="mb-10 text-5xl font-bold flex items-center gap-3"><Icon icon="tabler:stack-2" fontSize={48} /> Ürünler</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
           {thumbnails.map((thumbnail, index) => {
             const { title, image, content, price, oldPrice, url } = thumbnail;
