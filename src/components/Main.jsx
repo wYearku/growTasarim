@@ -11,7 +11,7 @@ import "swiper/css/navigation";
 
 const Main = () => {
   return (
-    <div className="h-[100vh] bg-[url('/img/grow-bg.jpg')] bg-cover bg-center flex justify-center items-center px-2">
+    <div className="h-[100vh] bg-[url('/img/home_arayuz_yeni.png')] bg-cover bg-center flex justify-center items-center px-2">
       <Swiper
         style={{
           "--swiper-navigation-color": "#fff",

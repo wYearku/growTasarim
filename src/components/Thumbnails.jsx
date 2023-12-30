@@ -34,7 +34,7 @@ const Thumbnails = () => {
     {
       title: "Cs-Go",
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvSC-bvtMTQyMGfOoyf4-2bil4EABI36b9bg&usqp=CAU",
+        "/img/CS_GO_1.png",
       content: "CS-GO THUMBNAİL",
       price: "99.90",
       oldPrice: "149.90",
