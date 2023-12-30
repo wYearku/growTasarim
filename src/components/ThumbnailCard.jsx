@@ -4,7 +4,7 @@ import React from "react";
 
 const ThumbnailCard = ({ image, title, content, price, oldPrice, url }) => {
   return (
-    <div className="flex flex-col relative group w-fit text-black rounded-xl overflow-hidden rainbow p-1 mx-auto">
+    <div className="flex flex-col relative group text-black rounded-xl overflow-hidden mx-auto">
       <Link href={`/products/${url}`}>
         <Image
           width={100000}

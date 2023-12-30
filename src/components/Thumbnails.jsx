@@ -58,28 +58,28 @@ const Thumbnails = () => {
       oldPrice: "149.90",
       url: "gta-v",
     },
-    {
-      title: "İnstagram Arkaplan",
-      content: "Arka Planını Değiştir!",
-      image: "/img/product-1.png",
-      price: "99.99",
-      discount: "60",
-      url: "instagram_arkaplan",
-    },
-    {
-      title: "Nesne Değiştirme",
-      content: "Doğum Tarihini",
-      image: "/img/product-1.png",
-      price: "99.99",
-      discount: "nesne_degistirme",
-    },
-    {
-      title: "Lorem",
-      content: "Lorem Ipsum Dolor Sit Amet",
-      image: "/img/product-1.png",
-      price: "99.99",
-      discount: "60",
-    },
+    // {
+    //   title: "İnstagram Arkaplan",
+    //   content: "Arka Planını Değiştir!",
+    //   image: "/img/product-1.png",
+    //   price: "99.99",
+    //   discount: "60",
+    //   url: "instagram_arkaplan",
+    // },
+    // {
+    //   title: "Nesne Değiştirme",
+    //   content: "Doğum Tarihini",
+    //   image: "/img/product-1.png",
+    //   price: "99.99",
+    //   discount: "nesne_degistirme",
+    // },
+    // {
+    //   title: "Lorem",
+    //   content: "Lorem Ipsum Dolor Sit Amet",
+    //   image: "/img/product-1.png",
+    //   price: "99.99",
+    //   discount: "60",
+    // },
   ];
 
   return (
