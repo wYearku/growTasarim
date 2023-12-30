@@ -29,10 +29,10 @@ const Main = () => {
         navigation={true}
         modules={[Navigation, Pagination, Autoplay]}
         slidesPerView={1}
-        className="w-[350px] md:w-[500px] lg:w-[1200px]"
+        className="w-[350px] md:w-[90%] lg:w-[1200px]"
       >
         <SwiperSlide>
-          <div className="w-full h-[11rem] md:h-[15rem] lg:h-[33rem]">
+          <div className="w-full h-[11rem] md:h-[20rem] lg:h-[33rem]">
             <img
               className="w-full h-full object-cover border-4 border-white rounded-3xl"
               src={"/img/slide1.jpg"}
@@ -40,7 +40,7 @@ const Main = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="w-full h-[11rem] md:h-[15rem] lg:h-[33rem]">
+          <div className="w-full h-[11rem] md:h-[20rem] lg:h-[33rem]">
             <img
               className="w-full h-full object-cover border-4 border-white rounded-3xl"
               src={"/img/slide2.jpg"}
@@ -48,7 +48,7 @@ const Main = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="w-full h-[11rem] md:h-[15rem] lg:h-[33rem]">
+          <div className="w-full h-[11rem] md:h-[20rem] lg:h-[33rem]">
             <img
               className="w-full h-full object-cover border-4 border-white rounded-3xl"
               src={"/img/slide3.jpg"}

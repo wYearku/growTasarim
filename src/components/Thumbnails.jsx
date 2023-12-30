@@ -46,7 +46,7 @@ const Thumbnails = () => {
     <div className="bg-[#1E2029]">
       <div className="lg:w-[80%] mx-auto py-10 px-2">
         <h2 className="mb-10 text-5xl font-bold flex items-center gap-3"><Icon icon="tabler:stack-2" fontSize={48} /> Thumbnails</h2>
-        <div className="grid lg:grid-cols-4 gap-4">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
           {thumbnails.map((thumbnail, index) => {
             const { title, image, content, price, oldPrice, url } = thumbnail;
 
