@@ -1,4 +1,5 @@
 import { Icon } from "@iconify/react";
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -32,35 +33,61 @@ const Footer = () => {
     {
       title: "GrowTasarım",
       materials: [
-        "Hakkımızda",
-        "Oyunlar",
-        "Ödeme Yöntemleri",
-        "Hesap Numaraları",
-        "İletişim",
-      ],
-    },
-    {
-      title: "Kurumsal",
-      materials: [
-        "Üyelik Sözleşmesi",
-        "Kullanım Koşulları",
-        "Gizlilik Politikası",
-        "Geri Ödeme Politikası",
-        "K.V.K.K",
+        {
+          title: "Hakkımızda",
+          href: "/about",
+        },
+        {
+          title: "Oyunlar",
+          href: "/oyunlar",
+        },
+        {
+          title: "Hesap Numaraları",
+          href: "/",
+        },
+        {
+          title: "İletişim",
+          href: "/",
+        },
       ],
     },
     {
       title: "Popüler Oyunlar",
       materials: [
-        "pubg mobile uc",
-        "valorant points",
-        "steam cüzdan kodu",
-        "Yayıncı başvuru formu",
+        {
+          title: "Pubg",
+          href: "/products/pubg",
+        },
+        {
+          title: "Valorant",
+          href: "/products/valorant",
+        },
+        {
+          title: "Roblox",
+          href: "/products/roblox",
+        },
       ],
     },
     {
       title: "Bize Ulaşın",
-      materials: ["Facebook", "Twitter", "Instagram", "Youtube"],
+      materials: [
+        {
+          title: "Facebook",
+          href: "/",
+        },
+        {
+          title: "Twitter",
+          href: "/",
+        },
+        {
+          title: "Instagram",
+          href: "/",
+        },
+        {
+          title: "Youtube",
+          href: "/",
+        },
+      ],
     },
   ];
 
@@ -90,17 +117,27 @@ const Footer = () => {
           </div>
         </div>
         <div className="bg-[#292B37] py-5">
-          <div className="lg:w-[80%] mx-auto grid sm:grid-cols-2 lg:grid-cols-4 gap-5 px-2">
+          <div className="lg:w-[80%] mx-auto grid sm:grid-cols-3 gap-5 px-2">
             {footerInformation.map((data, i) => {
               const { title, materials } = data;
 
               return (
                 <div key={i}>
-                  <h4 className="border-b border-white pb-2">{title}</h4>
-                  <ul className="list-disc list-inside mt-4">
-                    {materials.map((material, i) => (
-                      <li key={i}>{material}</li>
-                    ))}
+                  <h4 className="border-b border-white pb-2 text-lg">
+                    {title}
+                  </h4>
+                  <ul className="list-inside mt-2 font-light grid md:grid-cols-2">
+                    {materials.map((material, i) => {
+                      const { title, href } = material;
+
+                      return (
+                        <Link href={href}>
+                          <li key={i} className="w-fit ml-1">
+                            {title}
+                          </li>
+                        </Link>
+                      );
+                    })}
                   </ul>
                 </div>
               );
@@ -110,8 +147,8 @@ const Footer = () => {
         <div className="bg-[#3F4257] py-3 px-2">
           <div className="lg:w-[80%] mx-auto text-md:grid-cols-2 center">
             <p className="text-center">
-              Copyright 2023 <span className="text-[#ffba08]">GrowTasarım</span> |
-              Sitemizdeki yazı resim ve içeriklerin her hakkı saklıdır.
+              Copyright 2023 <span className="text-[#ffba08]">GrowTasarım</span>{" "}
+              | Sitemizdeki yazı resim ve içeriklerin her hakkı saklıdır.
             </p>
           </div>
         </div>

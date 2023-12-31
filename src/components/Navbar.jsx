@@ -131,23 +131,35 @@ const Navbar = () => {
       <div className="bg-[#292B37] px-2 duyuru-container">
         <div className="horizontal-scrolling-items flex gap-10">
           <p className="flex gap-2 items-center justify-center py-1 text-sm horizontal-scrolling-items__item">
-            Duyuru <Icon icon="tabler:bell-ringing" /> hesaplanmızda
-            indirimlerimiz sizlerle !! Ayrıca sitemizde herhangi bir sorun
-            yaşarsanız mesai saatlerimiz içerisinde en hızlı şekilde canlı
-            destek ekibimizden geri dönüş alabilirsiniz
+            Duyuru <Icon icon="tabler:bell-ringing" /> GrowTasarım.com'da Yılbaşına özel Tüm Ürünlerde %15 indirim. Hemen alışverişe başla!
           </p>
           <p className="flex gap-2 items-center justify-center py-1 text-sm horizontal-scrolling-items__item">
-            Duyuru <Icon icon="tabler:bell-ringing" /> hesaplanmızda
-            indirimlerimiz sizlerle !! Ayrıca sitemizde herhangi bir sorun
-            yaşarsanız mesai saatlerimiz içerisinde en hızlı şekilde canlı
-            destek ekibimizden geri dönüş alabilirsiniz
+            Duyuru <Icon icon="tabler:bell-ringing" /> GrowTasarım.com'da Yılbaşına özel Tüm Ürünlerde %15 indirim. Hemen alışverişe başla!
           </p>
           <p className="flex gap-2 items-center justify-center py-1 text-sm horizontal-scrolling-items__item">
+            Duyuru <Icon icon="tabler:bell-ringing" /> GrowTasarım.com'da Yılbaşına özel Tüm Ürünlerde %15 indirim. Hemen alışverişe başla!
+          </p>
+          <p className="flex gap-2 items-center justify-center py-1 text-sm horizontal-scrolling-items__item">
+            Duyuru <Icon icon="tabler:bell-ringing" /> GrowTasarım.com'da Yılbaşına özel Tüm Ürünlerde %15 indirim. Hemen alışverişe başla!
+          </p>
+          <p className="flex gap-2 items-center justify-center py-1 text-sm horizontal-scrolling-items__item">
+            Duyuru <Icon icon="tabler:bell-ringing" /> GrowTasarım.com'da Yılbaşına özel Tüm Ürünlerde %15 indirim. Hemen alışverişe başla!
+          </p>
+          <p className="flex gap-2 items-center justify-center py-1 text-sm horizontal-scrolling-items__item">
+            Duyuru <Icon icon="tabler:bell-ringing" /> GrowTasarım.com'da Yılbaşına özel Tüm Ürünlerde %15 indirim. Hemen alışverişe başla!
+          </p>
+          <p className="flex gap-2 items-center justify-center py-1 text-sm horizontal-scrolling-items__item">
+            Duyuru <Icon icon="tabler:bell-ringing" /> GrowTasarım.com'da Yılbaşına özel Tüm Ürünlerde %15 indirim. Hemen alışverişe başla!
+          </p>
+          <p className="flex gap-2 items-center justify-center py-1 text-sm horizontal-scrolling-items__item">
+            Duyuru <Icon icon="tabler:bell-ringing" /> GrowTasarım.com'da Yılbaşına özel Tüm Ürünlerde %15 indirim. Hemen alışverişe başla!
+          </p>
+          {/* <p className="flex gap-2 items-center justify-center py-1 text-sm horizontal-scrolling-items__item">
             Duyuru <Icon icon="tabler:bell-ringing" /> hesaplanmızda
             indirimlerimiz sizlerle !! Ayrıca sitemizde herhangi bir sorun
             yaşarsanız mesai saatlerimiz içerisinde en hızlı şekilde canlı
             destek ekibimizden geri dönüş alabilirsiniz
-          </p>
+          </p> */}
         </div>
       </div>
     </div>

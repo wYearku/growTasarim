@@ -1,9 +1,9 @@
-import React from "react";
 import ThumbnailCard from "./ThumbnailCard";
+
 import { Icon } from "@iconify/react";
 
 const Thumbnails = () => {
-  const thumbnails = [
+  const products = [
     {
       title: "Pubg",
       image:
@@ -100,12 +100,19 @@ const Thumbnails = () => {
     // },
   ];
 
+  const socialMedias = [
+    {
+
+    }
+  ]
+
+
   return (
     <div className="bg-[#1E2029]">
       <div className="lg:w-[80%] mx-auto py-10 px-2">
         <h2 className="mb-10 text-5xl font-bold flex items-center gap-3"><Icon icon="tabler:stack-2" fontSize={48} /> Ürünler</h2>
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 justify-center gap-4">
-          {thumbnails.map((thumbnail, index) => {
+        <div className="grid sm:grid-cols-2 md:grid-cols-3  xl:grid-cols-4 2xl:grid-cols-5 justify-center gap-4">
+          {products.map((thumbnail, index) => {
             const { title, image, content, price, oldPrice, url } = thumbnail;
 
             return (
