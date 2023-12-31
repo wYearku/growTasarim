@@ -32,7 +32,7 @@ const Main = () => {
         className="w-[97%] md:w-[90%] lg:w-[900px] xl:w-[1100px]"
       >
         <SwiperSlide>
-          <div className="w-full h-[40%] md:h-[20rem] lg:h-[27rem] xl:h-[33rem]">
+          <div className="w-full h-[40%] md:h-[20rem] lg:h-[27rem] xl:h-[33rem] !m-0">
             <img
               className="w-full h-full object-cover border-4 border-white rounded-3xl"
               src={"/img/slide1.jpg"}
