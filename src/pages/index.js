@@ -5,6 +5,7 @@ import About from "@/components/About";
 import FeedBack from "@/components/FeedBack";
 import Banners from "@/components/Banners";
 import SocialMedia from "@/components/SocialMedia";
+import OpenAnimation from "@/components/OpenAnimation";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       {/* <About /> */}
       <FeedBack />
       <SocialMedia />
+      <OpenAnimation/>
     </>
   );
 }

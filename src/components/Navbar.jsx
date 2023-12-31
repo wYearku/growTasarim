@@ -15,7 +15,7 @@ const Navbar = () => {
               src={"/img/grow-logo.png"}
               width={250}
               height={50}
-              className="object-contain"
+              className="w-32 md:!w-64 object-contain"
               alt="grow logo"
             />
           </Link>
