@@ -131,8 +131,8 @@ const Footer = () => {
                       const { title, href } = material;
 
                       return (
-                        <Link href={href}>
-                          <li key={i} className="w-fit ml-1">
+                        <Link key={i} href={href}>
+                          <li className="w-fit ml-1">
                             {title}
                           </li>
                         </Link>
