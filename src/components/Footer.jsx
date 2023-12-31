@@ -126,15 +126,13 @@ const Footer = () => {
                   <h4 className="border-b border-white pb-2 text-lg">
                     {title}
                   </h4>
-                  <ul className="list-inside mt-2 font-light grid md:grid-cols-2">
+                  <ul className="list-inside mt-2 font-light">
                     {materials.map((material, i) => {
                       const { title, href } = material;
 
                       return (
                         <Link key={i} href={href}>
-                          <li className="w-fit ml-1">
-                            {title}
-                          </li>
+                          <li className="w-fit ml-1">{title}</li>
                         </Link>
                       );
                     })}
@@ -147,7 +145,7 @@ const Footer = () => {
         <div className="bg-[#3F4257] py-3 px-2">
           <div className="lg:w-[80%] mx-auto text-md:grid-cols-2 center">
             <p className="text-center">
-              Copyright 2023 <span className="text-[#ffba08]">GrowTasarım</span>{" "}
+              Copyright 2023 <span className="text-[#ffba08]">GrowTasarım</span>
               | Sitemizdeki yazı resim ve içeriklerin her hakkı saklıdır.
             </p>
           </div>
