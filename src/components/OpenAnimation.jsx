@@ -3,12 +3,18 @@ import React, { useEffect, useState } from "react";
 
 const OpenAnimation = () => {
   const [pageLoad, setPageLoad] = useState(true);
+  const [pageHidden, setPageHidden] = useState(false);
 
   useEffect(() => {
     setTimeout(() => {
       setPageLoad(false);
     }, 500);
+    setTimeout(() => {
+      setPageHidden(true);
+    }, 1000);
   }, []);
+
+  if (pageHidden) return;
 
   return (
     <div
