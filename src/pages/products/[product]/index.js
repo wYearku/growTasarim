@@ -7,7 +7,7 @@ const ProductPage = ({ product }) => {
   const data = [
     {
       title: "Pubg",
-      url: 'pubg',
+      url: "pubg",
       images: [
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDBSlpJcziOtj7tkwMjK06v8FWAIpQ9USsgQ&usqp=CAU",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa176KuxCa9Q9Do1cVJXhXF0K31vmBiT1Umg&usqp=CAU",
@@ -21,10 +21,11 @@ const ProductPage = ({ product }) => {
         "https://img.chip.com.tr/rcman/Cw940h529q95gm/images/content/2019/03/18/2019031810105117585.jpg",
       thumbnail:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfoS4PJfdYw-ByEqXy4abinVoWsqXKsVtD2haG7BpmNxvcELudR1L459YahfK4B3zqvAY&usqp=CAU",
+      populer: true,
     },
     {
       title: "League of Legends",
-      url: 'lol',
+      url: "lol",
       images: [
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb_MiK_XLthbkrh6xysLPjohx8aw6-BSbOJA&usqp=CAU",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsJquC4YqV_6O46_iKT6Hh1BpC_Be7mdCl-UyR0v329f__9lwDGoWJNH_Ujk7AXSN7YmQ&usqp=CAU",
@@ -36,10 +37,11 @@ const ProductPage = ({ product }) => {
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRutgHQzsZn-N2mAdPW2PkOooiHuJ_1zlO7Sw&usqp=CAU",
       thumbnail:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyfW73z0uEJ0giBbPOwrGFs-Xlk95fiYtCxQ&usqp=CAU",
+      populer: false,
     },
     {
       title: "Valorant",
-      url: 'valorant',
+      url: "valorant",
       images: [
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2KiwUyi0AlWF3DZj4J72ZSGcm_KEZdjuA_Q&usqp=CAU",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9oH4xtyhGISr2g1pThkELggB_bkHK8V-S1Q&usqp=CAU",
@@ -52,10 +54,11 @@ const ProductPage = ({ product }) => {
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGkSq8q8dRNO_9Yo0MVonuSBcx0l20cV-y0Q&usqp=CAU",
       thumbnail:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo901H0Z68LBPVJlcvg35hBr4-SMb-0IXUbw&usqp=CAU",
+      populer: true,
     },
     {
       title: "Cs Go",
-      url: 'cs-go',
+      url: "cs-go",
       images: [
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB98X-y-zEqTfVN-p6Y7Td7zVSlK0gOQbhtH7EImkawzn8Tg3_6Sa5FRgWJ3988vlabaY&usqp=CAU",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSLRddGd3XKnGqGdkYfxLoTZ6Ffv6C01H1EQ&usqp=CAU",
@@ -68,13 +71,12 @@ const ProductPage = ({ product }) => {
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU2SyVc-Osw0R1EGCUZzN3rux4Wp48xu-wyQ&usqp=CAU",
       thumbnail:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHacYQqWZJy38WfEdxPzt0G49IJAC5YfD0-w&usqp=CAU",
+      populer: false,
     },
   ];
 
   useEffect(() => {
-    const pageData = data.find(
-      (item) => item.url === product
-    );
+    const pageData = data.find((item) => item.url === product);
     setPageData(pageData);
   }, []);
 
@@ -86,6 +88,7 @@ const ProductPage = ({ product }) => {
         images={pageData?.images}
         thumbnail={pageData?.thumbnail}
         thumbnailBg={pageData?.thumbnailBg}
+        populer={pageData?.populer}
       />
     </div>
   );

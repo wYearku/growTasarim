@@ -12,6 +12,7 @@ const Thumbnails = () => {
       price: "99.90",
       oldPrice: "149.90",
       url: "pubg",
+      populer: true
     },
     {
       title: "Valorant",
@@ -21,6 +22,7 @@ const Thumbnails = () => {
       price: "99.90",
       oldPrice: "149.90",
       url: "valorant",
+      populer: true
     },
     {
       title: "LOL",
@@ -30,6 +32,7 @@ const Thumbnails = () => {
       price: "99.90",
       oldPrice: "149.90",
       url: "lol",
+      populer: false
     },
     {
       title: "Cs-Go",
@@ -39,6 +42,7 @@ const Thumbnails = () => {
       price: "99.90",
       oldPrice: "149.90",
       url: "cs-go",
+      populer: false
     },
     {
       title: "Fortnite",
@@ -48,6 +52,7 @@ const Thumbnails = () => {
       price: "99.90",
       oldPrice: "149.90",
       url: "fortnite",
+      populer: false
     },
     {
       title: "GTA V",
@@ -57,6 +62,7 @@ const Thumbnails = () => {
       price: "99.90",
       oldPrice: "149.90",
       url: "gta-v",
+      populer: false
     },
     {
       title: "Apex Legends",
@@ -66,6 +72,7 @@ const Thumbnails = () => {
       price: "99.90",
       oldPrice: "149.90",
       url: "gta-v",
+      populer: false
     },
     {
       title: "Roblox",
@@ -75,6 +82,7 @@ const Thumbnails = () => {
       price: "99.90",
       oldPrice: "149.90",
       url: "gta-v",
+      populer: true
     },
     // {
     //   title: "İnstagram Arkaplan",
@@ -100,20 +108,13 @@ const Thumbnails = () => {
     // },
   ];
 
-  const socialMedias = [
-    {
-
-    }
-  ]
-
-
   return (
     <div className="bg-[#1E2029]">
       <div className="lg:w-[80%] mx-auto py-10 px-2">
         <h2 className="mb-10 text-5xl font-bold flex items-center gap-3"><Icon icon="tabler:stack-2" fontSize={48} /> Ürünler</h2>
         <div className="grid sm:grid-cols-2 md:grid-cols-3  xl:grid-cols-4 2xl:grid-cols-5 justify-center gap-4">
           {products.map((thumbnail, index) => {
-            const { title, image, content, price, oldPrice, url } = thumbnail;
+            const { title, image, content, price, oldPrice, url, populer } = thumbnail;
 
             return (
               <ThumbnailCard
@@ -124,6 +125,7 @@ const Thumbnails = () => {
                 price={price}
                 oldPrice={oldPrice}
                 url={url}
+                populer={populer}
               />
             );
           })}

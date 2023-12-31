@@ -3,10 +3,20 @@ import Link from "next/link";
 import React from "react";
 import Chip from "./Chip";
 
-const ThumbnailCard = ({ image, title, content, price, oldPrice, url }) => {
+const ThumbnailCard = ({
+  image,
+  title,
+  content,
+  price,
+  oldPrice,
+  url,
+  populer,
+}) => {
   return (
     <div className="flex flex-col relative group text-black rounded-xl overflow-hidden mx-auto">
-      <Chip text="popüler" className={"absolute z-10 top-2 left-4"} />
+      {populer ? (
+        <Chip text="popüler" className={"absolute z-10 top-2 left-4"} />
+      ) : null}
       <Link href={`/products/${url}`}>
         <Image
           width={10000000}
