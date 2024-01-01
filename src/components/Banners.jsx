@@ -6,17 +6,17 @@ const Banners = () => {
     {
       title: "Instagram",
       image: "/img/banners/instagram.jpg",
-      href: " ",
+      url: 'instagram'
     },
     {
       title: "Discord",
       image: "/img/banners/discord.jpg",
-      href: " ",
+      url: 'discord'
     },
     {
       title: "Youtube",
       image: "/img/banners/youtube.jpg",
-      href: " ",
+      url: 'youtube'
     },
   ];
 
@@ -27,10 +27,10 @@ const Banners = () => {
       </h2>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
         {banners.map((banner, index) => {
-          const { title, image, href } = banner;
+          const { title, image, url } = banner;
 
           return (
-            <BannerCard key={index} title={title} image={image} href={href} />
+            <BannerCard key={index} title={title} image={image} url={url} />
           );
         })}
       </div>

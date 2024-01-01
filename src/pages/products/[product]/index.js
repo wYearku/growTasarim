@@ -16,7 +16,8 @@ const ProductPage = ({ product }) => {
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAnhA1xypgJMtuz7QlkGi6xxPCqBNwViVQSw&usqp=CAU",
       ],
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit consequatur, eaque repellat atque dolor maxime ipsam accusantium omnis quod praesentium. Repellat corrupti esse natus tempora ab. Et voluptatem ut,  ",
+        "Birbirinden eşsiz pubg tasarımlarını keşfet ve satın al. Unutma! En fazla 3 Saat içinde teslimat garantisi.",
+      subContent: "NOT : Satın alma işleminden sonra sosyal medyalarımızdan bize ulaşmayı unutma.",
       thumbnailBg:
         "https://img.chip.com.tr/rcman/Cw940h529q95gm/images/content/2019/03/18/2019031810105117585.jpg",
       thumbnail:
@@ -32,7 +33,8 @@ const ProductPage = ({ product }) => {
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWzK-GXRsoUvJ8O_nuv0y5wGrTLYCKZa1FsE6bwPaX6kMx65iHuVuMgj0IMIPhS5kvMKs&usqp=CAU",
       ],
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit consequatur, eaque repellat atque dolor maxime ipsam accusantium omnis quod praesentium. Repellat corrupti esse natus tempora ab. Et voluptatem ut,  ",
+        "Birbirinden eşsiz league of legends tasarımlarını keşfet ve satın al. Unutma! En fazla 3 Saat içinde teslimat garantisi.",
+      subContent: "NOT : Satın alma işleminden sonra sosyal medyalarımızdan bize ulaşmayı unutma.",
       thumbnailBg:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRutgHQzsZn-N2mAdPW2PkOooiHuJ_1zlO7Sw&usqp=CAU",
       thumbnail:
@@ -49,7 +51,8 @@ const ProductPage = ({ product }) => {
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgSfjp4-YBhC_hCnqlN-Ixd7R32aA_OZqi-dz5HDhLMNdMVwlAevwkjYXsBwQuqg8xCZk&usqp=CAU",
       ],
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit consequatur, eaque repellat atque dolor maxime ipsam accusantium omnis quod praesentium. Repellat corrupti esse natus tempora ab. Et voluptatem ut,  ",
+        "Birbirinden eşsiz valorant tasarımlarını keşfet ve satın al. Unutma! En fazla 3 Saat içinde teslimat garantisi.",
+      subContent: "NOT : Satın alma işleminden sonra sosyal medyalarımızdan bize ulaşmayı unutma.",
       thumbnailBg:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGkSq8q8dRNO_9Yo0MVonuSBcx0l20cV-y0Q&usqp=CAU",
       thumbnail:
@@ -66,7 +69,8 @@ const ProductPage = ({ product }) => {
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO0k2-oveBDvYvDq-JN4120un07yNY8GZayQ&usqp=CAU",
       ],
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit consequatur, eaque repellat atque dolor maxime ipsam accusantium omnis quod praesentium. Repellat corrupti esse natus tempora ab. Et voluptatem ut,  ",
+        "Birbirinden eşsiz cs go tasarımlarını keşfet ve satın al. Unutma! En fazla 3 Saat içinde teslimat garantisi.",
+      subContent: "NOT : Satın alma işleminden sonra sosyal medyalarımızdan bize ulaşmayı unutma.",
       thumbnailBg:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU2SyVc-Osw0R1EGCUZzN3rux4Wp48xu-wyQ&usqp=CAU",
       thumbnail:
@@ -85,6 +89,7 @@ const ProductPage = ({ product }) => {
       <DetailPage
         title={pageData?.title}
         content={pageData?.content}
+        subContent={pageData?.subContent}
         images={pageData?.images}
         thumbnail={pageData?.thumbnail}
         thumbnailBg={pageData?.thumbnailBg}

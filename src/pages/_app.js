@@ -19,7 +19,7 @@ export default function App({ Component, pageProps }) {
       className={`${poppins.className} bg-[#292B37] min-h-[100vh] text-white flex flex-col`}
     >
       <Snowfall
-        snowflakeCount={100}
+        snowflakeCount={50}
         speed={[0.5, 1, 1.5, 2]}
         style={{ position: "fixed", top: 0, zIndex: "9999" }}
       />

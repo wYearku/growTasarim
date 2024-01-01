@@ -24,14 +24,13 @@ import Chip from "./Chip";
 const DetailPage = ({
   title,
   content,
+  subContent,
   thumbnail,
   thumbnailBg,
   images,
   populer,
 }) => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
-
-  console.log(populer);
 
   return (
     <div className="lg:w-[80%] mx-auto py-10 bg-[#1E2029] px-2 lg:px-16">
@@ -114,6 +113,7 @@ const DetailPage = ({
             className="w-28 h-28 absolute top-28 left-10 object-cover shadow-2xl"
           />
           <p className="indent-5 mt-5 text-justify">{content}</p>
+          <p className="text-justify">{subContent}</p>
           <a
             href="https://google.com"
             target="_blank"

@@ -132,7 +132,7 @@ const Footer = () => {
 
                       return (
                         <Link key={i} href={href}>
-                          <li className="w-fit ml-1">{title}</li>
+                          <li className="w-fit ml-1 hover:opacity-65">{title}</li>
                         </Link>
                       );
                     })}
