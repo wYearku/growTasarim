@@ -113,7 +113,7 @@ const DetailPage = ({
             className="w-28 h-28 absolute top-28 left-10 object-cover shadow-2xl"
           />
           <p className="indent-5 mt-5 text-justify">{content}</p>
-          <p className="text-justify">{subContent}</p>
+          <p className="text-justify uppercase">{subContent}</p>
           <a
             href="https://google.com"
             target="_blank"
