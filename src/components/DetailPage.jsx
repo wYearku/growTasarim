@@ -31,6 +31,7 @@ const DetailPage = ({
   populer,
 }) => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
+  const [realIndex, setRealIndex] = useState(0)
 
   return (
     <div className="lg:w-[80%] mx-auto py-10 bg-[#1E2029] px-2 lg:px-16">
@@ -45,6 +46,7 @@ const DetailPage = ({
               "--swiper-navigation-color": "#fff",
               "--swiper-pagination-color": "#fff",
             }}
+            onSlideChange={(e) => setRealIndex(e.realIndex)}
             pagination={{
               clickable: true,
             }}
@@ -86,8 +88,9 @@ const DetailPage = ({
           >
             {images?.map((image, i) => (
               <SwiperSlide key={i}>
-                <div className="w-full h-[3rem]">
+                <div className={`w-full h-[3rem]`}>
                   <Image
+                    style={{ border: realIndex === i ? "1px solid #FFBA08" : null }}
                     width={1000000}
                     height={1000000}
                     className="w-full h-full object-cover cursor-pointer"
