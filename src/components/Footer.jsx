@@ -94,7 +94,7 @@ const Footer = () => {
   return (
     <div className="flex-1 flex items-end">
       <div className="flex flex-col">
-        <div className="bg-[#1E2029] py-10 px-2">
+        <div className="bg-[#292C35] py-10 px-2">
           <div className="lg:w-[80%] mx-auto grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {footerData.map((data, i) => {
               const { title, content, icon } = data;
@@ -116,7 +116,7 @@ const Footer = () => {
             })}
           </div>
         </div>
-        <div className="bg-[#292B37] py-5">
+        <div className="bg-[#1D2029] py-5">
           <div className="lg:w-[80%] mx-auto grid sm:grid-cols-3 gap-5 px-2">
             {footerInformation.map((data, i) => {
               const { title, materials } = data;
