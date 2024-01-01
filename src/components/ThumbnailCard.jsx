@@ -6,9 +6,6 @@ import Chip from "./Chip";
 const ThumbnailCard = ({
   image,
   title,
-  content,
-  price,
-  oldPrice,
   url,
   populer,
 }) => {

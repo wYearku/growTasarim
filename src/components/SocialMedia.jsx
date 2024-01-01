@@ -1,5 +1,5 @@
 import React from "react";
-import BannerCard from "./BannerCard";
+import SocialMediaCard from "./SocialMediaCard";
 
 const SocialMedia = () => {
   const SocialMedia = [
@@ -27,7 +27,7 @@ const SocialMedia = () => {
           const { title, image, href } = media;
 
           return (
-            <BannerCard key={index} title={title} image={image} href={href} />
+            <SocialMediaCard key={index} title={title} image={image} href={href} />
           );
         })}
       </div>

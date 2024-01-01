@@ -13,9 +13,6 @@ export default function Home() {
       <Main />
       <Thumbnails />
       <Banners />
-      {/* <SpecialDesigns /> */}
-      {/* <About /> */}
-      <FeedBack />
       <SocialMedia />
       <OpenAnimation/>
     </>

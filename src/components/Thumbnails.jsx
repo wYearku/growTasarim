@@ -76,6 +76,18 @@ const Thumbnails = () => {
       url: "gta-v",
       populer: true,
     },
+    {
+      title: "Growtopia",
+      image: "/img/products/growtopia_1.jpg",
+      url: "gta-v",
+      populer: false,
+    },
+    {
+      title: "Minecraft",
+      image: "/img/products/minecraft_1.jpg",
+      url: "gta-v",
+      populer: true,
+    },
     // {
     //   title: "İnstagram Arkaplan",
     //   content: "Arka Planını Değiştir!",
@@ -108,7 +120,7 @@ const Thumbnails = () => {
         </h2>
         <div className="flex flex-wrap justify-center grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4">
           {products.map((thumbnail, index) => {
-            const { title, image, content, price, oldPrice, url, populer } =
+            const { title, image, url, populer } =
               thumbnail;
 
             return (
@@ -116,9 +128,6 @@ const Thumbnails = () => {
                 key={index}
                 title={title}
                 image={image}
-                content={content}
-                price={price}
-                oldPrice={oldPrice}
                 url={url}
                 populer={populer}
               />

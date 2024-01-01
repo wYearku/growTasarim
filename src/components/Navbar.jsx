@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <div className="sticky h-0 top-0 z-50">
-      <nav className="xl:px-32 px-6 bg-[#3A3C47] text-white shadow-lg flex flex-wrap justify-between items-center lg:py-2 font-medium">
+      <nav className="xl:px-32 px-6 bg-[#3A3C47] text-white shadow-lg flex flex-wrap justify-between items-center lg:py-5 font-medium">
         <div className="flex justify-between items-center">
           <Link href="/" className="flex text-lg font-semibold">
             <Image
@@ -46,9 +46,17 @@ const Navbar = () => {
             <li className="py-2 lg:py-0 ">
               <Link
                 className=" hover:pb-4 hover:border-b-4 hover:border-white"
+                href="/products"
+              >
+                Tüm Ürünler
+              </Link>
+            </li>
+            <li className="py-2 lg:py-0 ">
+              <Link
+                className=" hover:pb-4 hover:border-b-4 hover:border-white"
                 href="/about"
               >
-                About
+                Hakkımızda
               </Link>
             </li>
             {/* <li className="py-2 lg:py-0 ">
@@ -64,7 +72,7 @@ const Navbar = () => {
                 className=" hover:pb-4 hover:border-b-4 hover:border-white"
                 href="/comments"
               >
-                Müşteri Yorumları
+                Müşterilerimiz
               </Link>
             </li>
           </ul>
@@ -97,9 +105,17 @@ const Navbar = () => {
           <li className="py-2 lg:py-0 ">
             <Link
               className=" hover:pb-2 hover:border-b-4 hover:border-white"
+              href="/products"
+            >
+              Tüm Ürünler 
+            </Link>
+          </li>
+          <li className="py-2 lg:py-0 ">
+            <Link
+              className=" hover:pb-2 hover:border-b-4 hover:border-white"
               href="/about"
             >
-              About
+              Hakkımızda
             </Link>
           </li>
           {/* <li className="py-2 lg:py-0 ">
@@ -115,7 +131,7 @@ const Navbar = () => {
               className=" hover:pb-4 hover:border-b-4 hover:border-white"
               href="/comments"
             >
-              Müşteri Yorumları
+              Müşterilerimiz
             </Link>
           </li>
           <li className="py-2 lg:py-0 flex gap-5 items-center justify-center my-2">

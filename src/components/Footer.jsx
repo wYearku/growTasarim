@@ -39,7 +39,7 @@ const Footer = () => {
         },
         {
           title: "Oyunlar",
-          href: "/oyunlar",
+          href: "/products",
         },
         {
           title: "Hesap Numaraları",

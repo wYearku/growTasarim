@@ -1,12 +1,12 @@
 import Thumbnails from '@/components/Thumbnails'
 import React from 'react'
 
-const Oyunlar = () => {
+const Products = () => {
   return (
-    <div className='mt-20'>
+    <div className='mt-28'>
         <Thumbnails />
     </div>
   )
 }
 
-export default Oyunlar
+export default Products
