@@ -118,7 +118,7 @@ const Thumbnails = () => {
         <h2 className="mb-10 text-5xl font-bold flex items-center gap-3">
           <Icon icon="tabler:stack-2" fontSize={48} /> Ürünler
         </h2>
-        <div className="flex flex-wrap justify-center grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4">
+        <div className="grid justify-center grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4">
           {products.map((thumbnail, index) => {
             const { title, image, url, populer } =
               thumbnail;

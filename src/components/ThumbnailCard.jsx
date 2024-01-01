@@ -11,7 +11,7 @@ const ThumbnailCard = ({
 }) => {
   return (
     <div
-      className={`flex flex-col w-[300px] h-[410px] relative group text-black rounded-xl overflow-hidden ${
+      className={`flex flex-col relative group text-black rounded-xl overflow-hidden ${
         populer ? "rainbow" : ""
       } p-1`}
     >
@@ -26,7 +26,7 @@ const ThumbnailCard = ({
           width={10000000}
           height={10000000}
           src={image}
-          className="!w-full !h-[100%] object-cover group-hover:scale-110 transition-all rounded-lg duration-300 ease-in-out"
+          className="!w-full md:!h-[400px] object-cover group-hover:scale-110 transition-all rounded-lg duration-300 ease-in-out"
         />
         <div className="px-4 ml-[-4px] bg-[#1E2029] w-[105%] bg-opacity-80 py-2 absolute bottom-0 text-white translate-y-10 group-hover:translate-y-0 transition-all duration-300 ease-in-out  ">
           <p>{title}</p>
