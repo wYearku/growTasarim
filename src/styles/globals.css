@@ -116,6 +116,13 @@ body {
   transition: color 0.2s ease, background 0.2s ease;
 }
 
+@media screen and (max-width: 760px) {
+  .swiper-button-next, 
+  .swiper-button-prev {
+    display: none !important;
+  }
+}
+
 .swiper-button-next:after, 
 .swiper-button-prev:after {
   font-size: 18px !important;
