@@ -132,7 +132,7 @@ const Navbar = () => {
                 className=" hover:pb-4 hover:border-b-4 hover:border-white"
                 href="/comments"
               >
-                Müşterilerimiz
+                Müşteriler
               </Link>
             </li>
             <li className="py-2 lg:py-0 flex gap-5 items-center justify-center my-2">
