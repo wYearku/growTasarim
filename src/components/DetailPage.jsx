@@ -123,7 +123,7 @@ const DetailPage = ({
             className="mt-auto ml-auto"
           >
             <button className="bg-[#FFBA08] px-7 py-1.5 hover:bg-[#d59d0d] transition-colors text-lg rounded-md text-white">
-              Buy Now
+              Satın Al
             </button>
           </a>
         </div>

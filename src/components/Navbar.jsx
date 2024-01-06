@@ -177,7 +177,7 @@ const Navbar = () => {
             </p>
             <p className="flex gap-2 items-center justify-center py-1 text-sm horizontal-scrolling-items__item">
               Duyuru <Icon icon="tabler:bell-ringing" /> GrowTasarım.com{"'"}da
-              Yılbaşına özel Tüm Ürünlerde %15 indirim. Hemen alışverişe başla!
+              Yılbaşına özel Tüm Ürünlerde %15 indirim .  Hemen alışverişe başla!
             </p>
             {/* <p className="flex gap-2 items-center justify-center py-1 text-sm horizontal-scrolling-items__item">
             Duyuru <Icon icon="tabler:bell-ringing" /> hesaplanmızda
