@@ -136,7 +136,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="py-2 lg:py-0 flex gap-5 items-center justify-center my-2">
-              <a href="https://instagram.com/growtasarimcom/" target="_blank">
+              <a href="https://www.instagram.com/growtasarimcom/" target="_blank">
                 <Icon icon="tabler:brand-instagram" fontSize={25} />
               </a>
               <a href="https://discord.com" target="_blank">
