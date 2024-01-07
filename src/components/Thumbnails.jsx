@@ -5,7 +5,7 @@ import { Icon } from "@iconify/react";
 const Thumbnails = () => {
   const products = [
     {
-      title: "Pubg",
+      title: "Pubg Thumbnail",
       image: "/img/products/pubg_1.jpg",
       content: "PUBG THUMBNAİL",
       price: "99.90",
@@ -14,7 +14,7 @@ const Thumbnails = () => {
       populer: true,
     },
     {
-      title: "Valorant",
+      title: "Valorant Thumbnail",
       image: "/img/products/valorant_1.jpg",
       content: "VALORANT THUMBNAİL",
       price: "99.90",
@@ -23,7 +23,7 @@ const Thumbnails = () => {
       populer: true,
     },
     {
-      title: "LOL",
+      title: "LOL Thumbnail",
       image: "/img/products/lol_1.jpg",
       content: "LOL THUMBNAİL",
       price: "99.90",
@@ -32,7 +32,7 @@ const Thumbnails = () => {
       populer: false,
     },
     {
-      title: "Cs-Go",
+      title: "Cs-Go Thumbnail",
       image: "/img/products/CS_GO_1.jpg",
       content: "CS-GO THUMBNAİL",
       price: "99.90",
@@ -41,7 +41,7 @@ const Thumbnails = () => {
       populer: false,
     },
     {
-      title: "Fortnite",
+      title: "Fortnite Thumbnail",
       image: "/img/products/fortnite_1.jpg",
       content: "Fortnite Thumbnail",
       price: "99.90",
@@ -50,7 +50,7 @@ const Thumbnails = () => {
       populer: false,
     },
     {
-      title: "GTA V",
+      title: "GTA V Thumbnail",
       image: "/img/products/gtav_1.jpg",
       content: "GTA V Thumbnail",
       price: "99.90",
@@ -59,7 +59,7 @@ const Thumbnails = () => {
       populer: false,
     },
     {
-      title: "Apex Legends",
+      title: "Apex Legends Thumbnail",
       image: "/img/products/apex_legends_1.jpg",
       content: "Apex Legends Thumbnail",
       price: "99.90",
@@ -68,7 +68,7 @@ const Thumbnails = () => {
       populer: false,
     },
     {
-      title: "Roblox",
+      title: "Roblox Thumbnail",
       image: "/img/products/roblox_1.jpg",
       content: "GTA V Thumbnail",
       price: "99.90",
@@ -77,13 +77,13 @@ const Thumbnails = () => {
       populer: true,
     },
     {
-      title: "Growtopia",
+      title: "Growtopia Thumbnail",
       image: "/img/products/growtopia_1.jpg",
       url: "gta-v",
       populer: false,
     },
     {
-      title: "Minecraft",
+      title: "Minecraft Thumbnail",
       image: "/img/products/minecraft_1.jpg",
       url: "gta-v",
       populer: true,
