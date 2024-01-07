@@ -79,7 +79,7 @@ const Navbar = () => {
             </ul>
           </nav>
           <div className={`lg:flex gap-5 items-center justify-end hidden flex-1`}>
-            <a href="https://instagram.com" target="_blank">
+            <a href="https://www.instagram.com/growtasarimcom/" target="_blank">
               <Icon icon="tabler:brand-instagram" fontSize={25} />
             </a>
             <a href="https://discord.com" target="_blank">
