@@ -4,6 +4,7 @@
 
 body {
   scroll-behavior: smooth;
+  user-select: #FFE132;
 }
 
 /* width */
