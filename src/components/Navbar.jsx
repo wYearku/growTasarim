@@ -14,8 +14,8 @@ const Navbar = () => {
             <Link href="/" className="flex text-lg font-semibold">
               <Image
                 src={"/img/grow-logo.png"}
-                width={300}
-                height={70}
+                width={400}
+                height={80}
                 className="w-44 md:!w-64 xl:w-72 object-contain"
                 alt="grow logo"
               />
