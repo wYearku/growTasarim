@@ -42,10 +42,6 @@ const Footer = () => {
           href: "/products",
         },
         {
-          title: "Hesap Numaraları",
-          href: "/",
-        },
-        {
           title: "İletişim",
           href: "/",
         },
