@@ -6,7 +6,7 @@ const ProductPage = ({ product }) => {
 
   const data = [
     {
-      title: "Pubg",
+      title: "Pubg Thumbnails",
       url: "pubg",
       images: [
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDBSlpJcziOtj7tkwMjK06v8FWAIpQ9USsgQ&usqp=CAU",
@@ -16,7 +16,7 @@ const ProductPage = ({ product }) => {
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAnhA1xypgJMtuz7QlkGi6xxPCqBNwViVQSw&usqp=CAU",
       ],
       content:
-        "Birbirinden eşsiz pubg tasarımlarını keşfet ve satın al. Unutma! En fazla 3 Saat içinde teslimat garantisi.",
+      "Birbirinden eşsiz pubg tasarımlarını keşfet ve satın al. Unutma! En fazla 3 Saat içinde teslimat garantisi.",
       subContent: "NOT : Satın alma işleminden sonra sosyal medyalarımızdan bize ulaşmayı unutma.",
       thumbnailBg:
         "https://img.chip.com.tr/rcman/Cw940h529q95gm/images/content/2019/03/18/2019031810105117585.jpg",
@@ -25,7 +25,7 @@ const ProductPage = ({ product }) => {
       populer: true,
     },
     {
-      title: "League of Legends",
+      title: "League of Legends Thumbnails",
       url: "lol",
       images: [
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb_MiK_XLthbkrh6xysLPjohx8aw6-BSbOJA&usqp=CAU",
@@ -42,7 +42,7 @@ const ProductPage = ({ product }) => {
       populer: false,
     },
     {
-      title: "Valorant",
+      title: "Valorant Thumbnails",
       url: "valorant",
       images: [
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2KiwUyi0AlWF3DZj4J72ZSGcm_KEZdjuA_Q&usqp=CAU",
@@ -60,7 +60,7 @@ const ProductPage = ({ product }) => {
       populer: true,
     },
     {
-      title: "Cs Go",
+      title: "Cs Go Thumbnails",
       url: "cs-go",
       images: [
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB98X-y-zEqTfVN-p6Y7Td7zVSlK0gOQbhtH7EImkawzn8Tg3_6Sa5FRgWJ3988vlabaY&usqp=CAU",
