@@ -9,13 +9,13 @@ const SocialMedia = () => {
       href: "",
     },
     {
-      title: "Instagram",
-      image: "/img/socialmedia/instagram_growtasarim.jpg",
+      title: "discord",
+      image: "/img/socialmedia/discord_growtasarim.jpg",
       href: "",
     },
     {
-      title: "Instagram",
-      image: "/img/socialmedia/instagram_growtasarim.jpg",
+      title: "youtube",
+      image: "/img/socialmedia/youtube_growtasarim.jpg",
       href: "",
     },
   ];
