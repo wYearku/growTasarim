@@ -4,7 +4,7 @@ import React from "react";
 const SocialMediaCard = ({ title, image, href }) => {
   return (
     <a href={href}>
-      <div className="rounded-2xl">
+      <div className="round">
         <Image width={1000000000} height={1000000000} src={image} />
       </div>
     </a>
